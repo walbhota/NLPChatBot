@@ -20,8 +20,9 @@ Walter's E-commerce Customer Support Chatbot is a Python-based AI assistant desi
 ```
 NLPChatBot/
 ├── Ecommerce_FAQ_intents.json   # Intents dataset
-├── ecommerce.py                # Model, training, and utility code
+├── ecommerce.py                # Model and utility code
 ├── app.py                      # Streamlit chatbot UI
+├── train.py                    # Training code
 ├── models/                     # Saved PyTorch model
 └── README.md                   # Project documentation
 ```
