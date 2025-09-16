@@ -40,7 +40,7 @@ rich==13.7.1
 rpds-py==0.19.0
 six==1.16.0
 smmap==5.0.1
-streamlit==1.36.0
+streamlit==1.49.1
 sympy==1.13.0
 tbb==2021.13.0
 tenacity==8.5.0
