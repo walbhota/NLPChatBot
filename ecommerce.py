@@ -10,8 +10,14 @@ from pathlib import Path
 # Ensure the 'punkt' tokenizer is downloaded
 try:
     nltk.data.find('tokenizers/punkt')
-except nltk.downloader.DownloadError:
+except LookupError:
     nltk.download('punkt')
+
+# Ensure the 'punkt_tab' resource is downloaded
+try:
+    nltk.data.find('tokenizers/punkt_tab')
+except LookupError:
+    nltk.download('punkt_tab')
 
 # Initialize stemmer
 stemmer = PorterStemmer()
